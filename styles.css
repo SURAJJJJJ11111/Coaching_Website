@@ -1,0 +1,371 @@
+
+body{
+    background-image: url('pexels-juan-pablo-serrano-arenas-1242348.jpg');
+}
+#hero {
+    background-color: #d32c2c;
+    padding: 100px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 3px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+} */
+
+.hero p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Courses section styles */
+.courses {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    background-image: url('pexels-juan-pablo-serrano-arenas-1242348.jpg');
+}
+
+.course {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.course:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.course h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.course button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.course button:hover {
+    background-color: #d32c2c;
+}
+
+/* About and Contact sections styles */
+.about, .contact {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    background-image: url("pexels-juan-pablo-serrano-arenas-1242348.jpg");
+}
+
+/* Footer styles */
+footer {
+    background-color: #a6ff00;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+} */
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(35, 52, 185, 0.788);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6b6b;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #ff6b6b;
+    padding: 100px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Courses section styles */
+.courses {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.course {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.course:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.course h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.course button {
+    background-color: #ffcb6b;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+}
+
+.course button:hover {
+    background-color: #d32c2c;
+    transform: scale(1.05);
+}
+
+/* About and Contact sections styles */
+.about, .contact {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* About section styles */
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.about-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.icon p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Contact section styles */
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-icon {
+    text-align: center;
+}
+
+.contact-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.contact-icon p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgb(236, 215, 113);
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+    opacity: 0.5;
+}
+/* #webd{
+    height: 25%;
+    width: 25%;
+    opacity:0.6;
+}
+#webd:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 0.5s;
+    
+} */
+.courceimg{
+    height: 25%;
+    width: 25%;
+    opacity:0.6;
+    border-radius: 20px;
+}
+.courceimg:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 0.5s;
+    
+    
+}
+.courceimg2:hover{
+    border-radius: 50%;
+}
+#Pythona{
+  
+    transition: 0.2s ease-out;
+}
+.sus{
+  border-radius: 30% ;
+  font-family: cursive;
+  opacity: 0.6;
+  font-size: 30;
+  
+}
+.sus:hover{
+    opacity: 1;
+    transform: scale(1.23);
+    transition: 0.3s;
+
+
+}

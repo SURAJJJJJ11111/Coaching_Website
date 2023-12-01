@@ -1,0 +1,110 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #0073e6;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #0073e6;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add more specific styles as needed for your content */
+/* Add this CSS to your existing 'style.css' or create a new CSS file */
+
+/* Style the 'Price' section */
+section h2 {
+    color: #0073e6;
+    margin-top: 20px;
+}
+
+section h2 + p {
+    font-size: 1.2em;
+}
+
+/* Style the 'Buy Now' box */
+.buy-box {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.buy-box h3 {
+    font-size: 1.5em;
+}
+
+.buy-box p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #ff4500;
+}
